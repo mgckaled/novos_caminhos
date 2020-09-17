@@ -1,0 +1,8 @@
+[11-Sep-2020 16:00:59 America/Araguaina] PHP Parse error:  syntax error, unexpected 'PHPClassSession' (T_STRING), expecting ';' or ',' in /usr/share/nginx/html/2.2_Comandos_de_saida/index.php on line 17
+[11-Sep-2020 16:04:50 America/Araguaina] PHP Parse error:  syntax error, unexpected 'PHPClassSession' (T_STRING), expecting ';' or ',' in /usr/share/nginx/html/2.2_Comandos_de_saida/index.php on line 18
+[11-Sep-2020 19:14:09 America/Araguaina] PHP Warning:  require(/usr/share/nginx/html/framework/../framework/fsphp.php): failed to open stream: No such file or directory in /usr/share/nginx/html/framework/template.php on line 2
+[11-Sep-2020 19:14:09 America/Araguaina] PHP Stack trace:
+[11-Sep-2020 19:14:09 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/framework/template.php:0
+[11-Sep-2020 19:14:09 America/Araguaina] PHP Fatal error:  require(): Failed opening required '/usr/share/nginx/html/framework/../framework/fsphp.php' (include_path='.:/usr/local/lib/php') in /usr/share/nginx/html/framework/template.php on line 2
+[11-Sep-2020 19:14:09 America/Araguaina] PHP Stack trace:
+[11-Sep-2020 19:14:09 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/framework/template.php:0
