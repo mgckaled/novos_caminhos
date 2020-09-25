@@ -16,6 +16,7 @@ while ($looping <= 10) {
     $looping++;
 }
 
+
 var_dump($while);
 
 $looping = 10;

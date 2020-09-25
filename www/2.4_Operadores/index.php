@@ -16,6 +16,13 @@ $operators = [
 ];
 var_dump($operators);
 
+$operador = 10;
+$operadores = [
+    "o += 10" => ($operador += 10),
+];
+
+var_dump($operadores);
+
 PHPClassSession('COMPARAÇÃO', __LINE__);
 
 $incrementA = 5;

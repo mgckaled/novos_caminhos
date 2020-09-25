@@ -35,7 +35,7 @@ var_dump($myCart);
 
 PHPClassSession('GENERATORS', __LINE__);
 
-$iterator = 400000;
+$iterator = 40;
 
 function showDates($days)
 {
