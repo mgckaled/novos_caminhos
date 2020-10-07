@@ -1,5 +1,10 @@
 <?php
 
+require __DIR__ . '/../framework/config.php';
+PHPClassName('QUESTÃO 10');
+
+PHPClassSession('QUESTÃO 10', __LINE__);
+
 // Questão 10
 
 // Escreva uma função que inverta os caracteres
@@ -17,7 +22,9 @@
 // Para inputString = "foo(bar)baz(blim)",
 // a saída deve ser "foorabbazmilb"
 
-function reverseInParentheses($inputString)
+echo "Considerando a solução desenvolvida por você, para o enunciado abaixo quando 'inputString' = 'foo(bar(baz))blim' qual deve ser o valor de retorno da função? ";
+
+function reverseInParentheses($s)
 {
-    // CÓDIGO
+    
 }

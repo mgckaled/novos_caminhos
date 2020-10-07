@@ -1,5 +1,10 @@
 <?php
 
+require __DIR__ . '/../framework/config.php';
+PHPClassName('QUESTÃO 5');
+
+PHPClassSession('QUESTÃO 5', __LINE__);
+
 // Questão 5
 // Dada uma sequência de inteiros como um array,
 // determine se é possível obter uma sequência
@@ -17,7 +22,42 @@
 // Como alternativa, você pode remover 2 para obter a
 // sequência estritamente crescente [1, 3].
 
-function almostIncreasingSequence($sequence)
-{
-    // CÓDIGO
+echo "Considerando a solução desenvolvida por você, para o enunciado abaixo quando o variável 'sequence' possui o valor [3, 5, 67, 98, 3], qual deve ser o valor de retorno da função ? true ou false ?";
+
+function almostIncreasingSequence($sequence) {
+    
+    $count = 0;
+    
+    for ($i = 0; $i < count($sequence); $i++) {
+        if ($sequence[$i] <= $sequence[$i - 1] ) {
+            $count++;
+            if ($sequence[$i] <= $sequence[$i-2] && $sequence[$i+1] <= $sequence[$i-1] ) {
+                return false;
+            }
+        }
+    } 
+    
+    return $count <= 1;
 }
+
+var_dump(almostIncreasingSequence([3, 5, 67, 98]));
+var_dump(almostIncreasingSequence([1, 3, 2, 1]));
+var_dump(almostIncreasingSequence([1, 3, 2]));
+var_dump(almostIncreasingSequence([1, 2, 1, 2]));
+
+
+
+// function almostIncreasingSequence($sequence)
+// {
+//     $inc = false;
+//     for ($i = 0; $i < count($sequence); $i++) {
+//         if ($sequence[$i] >= $sequence[$i+1]) {
+//             if ($inc) {
+//                 $inc = false;
+//             } else {
+//                 return false;
+//             }
+//         }
+//     }
+//     return true;
+// }

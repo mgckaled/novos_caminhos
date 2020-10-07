@@ -10,3 +10,48 @@
 [17-Sep-2020 11:16:17 America/Araguaina] PHP Parse error:  syntax error, unexpected '$operadores' (T_VARIABLE) in /usr/share/nginx/html/2.4_Operadores/index.php on line 20
 [17-Sep-2020 11:16:18 America/Araguaina] PHP Parse error:  syntax error, unexpected '$operadores' (T_VARIABLE) in /usr/share/nginx/html/2.4_Operadores/index.php on line 20
 [17-Sep-2020 11:17:20 America/Araguaina] PHP Parse error:  syntax error, unexpected 'PHPClassSession' (T_STRING) in /usr/share/nginx/html/2.4_Operadores/index.php on line 26
+[25-Sep-2020 14:47:10 America/Araguaina] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /usr/share/nginx/html/prova/Questao1.php on line 26
+[25-Sep-2020 15:06:44 America/Araguaina] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /usr/share/nginx/html/prova/Questao1.php on line 33
+[25-Sep-2020 15:51:37 America/Araguaina] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /usr/share/nginx/html/prova/Questao3.php on line 34
+[25-Sep-2020 16:32:20 America/Araguaina] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ';' or ',' in /usr/share/nginx/html/prova/Questao1.php on line 31
+[25-Sep-2020 16:32:22 America/Araguaina] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ';' or ',' in /usr/share/nginx/html/prova/Questao1.php on line 31
+[25-Sep-2020 17:30:40 America/Araguaina] PHP Fatal error:  Uncaught Error: Call to undefined function akeArrayConsecutive() in /usr/share/nginx/html/prova/Questao4.php:45
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/prova/Questao4.php on line 45
+[25-Sep-2020 17:30:41 America/Araguaina] PHP Fatal error:  Uncaught Error: Call to undefined function akeArrayConsecutive() in /usr/share/nginx/html/prova/Questao4.php:45
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/prova/Questao4.php on line 45
+[25-Sep-2020 17:37:34 America/Araguaina] PHP Fatal error:  Only variables can be passed by reference in /usr/share/nginx/html/prova/Questao4.php on line 49
+[25-Sep-2020 17:37:35 America/Araguaina] PHP Fatal error:  Only variables can be passed by reference in /usr/share/nginx/html/prova/Questao4.php on line 49
+[25-Sep-2020 18:24:27 America/Araguaina] PHP Parse error:  syntax error, unexpected '+', expecting variable (T_VARIABLE) or '{' or '$' in /usr/share/nginx/html/prova/Questao5.php on line 34
+[25-Sep-2020 20:41:25 America/Araguaina] PHP Fatal error:  Uncaught Error: Call to undefined function srtlen() in /usr/share/nginx/html/prova/Questao6.php:29
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/prova/Questao6.php on line 29
+[25-Sep-2020 20:43:12 America/Araguaina] PHP Fatal error:  Uncaught Error: Call to undefined function srtlen() in /usr/share/nginx/html/prova/Questao6.php:31
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/prova/Questao6.php on line 31
+[25-Sep-2020 20:43:13 America/Araguaina] PHP Fatal error:  Uncaught Error: Call to undefined function srtlen() in /usr/share/nginx/html/prova/Questao6.php:31
+Stack trace:
+#0 {main}
+  thrown in /usr/share/nginx/html/prova/Questao6.php on line 31
+[25-Sep-2020 22:21:01 America/Araguaina] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /usr/share/nginx/html/prova/Questao6.php on line 44
+[25-Sep-2020 22:21:03 America/Araguaina] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /usr/share/nginx/html/prova/Questao6.php on line 44
+[25-Sep-2020 22:21:51 America/Araguaina] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /usr/share/nginx/html/prova/Questao6.php on line 44
+[26-Sep-2020 09:55:58 America/Araguaina] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /usr/share/nginx/html/prova/Questao9.php on line 35
+[26-Sep-2020 09:55:59 America/Araguaina] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /usr/share/nginx/html/prova/Questao9.php on line 35
+[26-Sep-2020 11:55:04 America/Araguaina] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /usr/share/nginx/html/prova/Questao10.php on line 31
+[26-Sep-2020 11:55:06 America/Araguaina] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /usr/share/nginx/html/prova/Questao10.php on line 31
+[26-Sep-2020 11:55:09 America/Araguaina] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /usr/share/nginx/html/prova/Questao10.php on line 31
+[26-Sep-2020 14:07:07 America/Araguaina] PHP Parse error:  syntax error, unexpected '}' in /usr/share/nginx/html/prova/Questao10.php on line 40
+[26-Sep-2020 14:21:56 America/Araguaina] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /usr/share/nginx/html/prova/Questao10.php on line 30
+[26-Sep-2020 14:22:00 America/Araguaina] PHP Stack trace:
+[26-Sep-2020 14:22:00 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao10.php:0
+[26-Sep-2020 14:22:00 America/Araguaina] PHP   2. reverseInParentheses() /usr/share/nginx/html/prova/Questao10.php:45
+[26-Sep-2020 14:22:34 America/Araguaina] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /usr/share/nginx/html/prova/Questao10.php on line 39
+[26-Sep-2020 14:22:34 America/Araguaina] PHP Stack trace:
+[26-Sep-2020 14:22:34 America/Araguaina] PHP   1. {main}() /usr/share/nginx/html/prova/Questao10.php:0
+[26-Sep-2020 14:22:34 America/Araguaina] PHP   2. reverseInParentheses() /usr/share/nginx/html/prova/Questao10.php:45
