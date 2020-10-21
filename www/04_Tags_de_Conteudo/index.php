@@ -19,7 +19,6 @@
   <!-- Propriedade para incluir imagem na aba do browser, ao lado do título -->
   <link rel='shortcut icon' href='http://www.ifto.edu.br/++theme++azul/img/favicon.ico'>
 
-
   <!-- CSS -->
   <link rel='stylesheet' href=''>
 
@@ -105,7 +104,6 @@
 
 
   <!-- SCRIPT -->
-  <!-- O Javascript irá fazer toda a renderização a partir desse ponto -->
   <script> </script>
 </body>
 

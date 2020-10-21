@@ -1,0 +1,2 @@
+[07-Oct-2020 17:57:53 America/Araguaina] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[07-Oct-2020 17:57:53 America/Araguaina] PHP Fatal error:  Unknown: Failed opening required '/usr/share/nginx/html/index.php' (include_path='.:/usr/local/lib/php') in Unknown on line 0
